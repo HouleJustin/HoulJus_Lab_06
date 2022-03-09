@@ -12,10 +12,15 @@ package Lab06;
  */
 public interface Instruments {
 
-    // Lets the instrument play its designated notes.
+    /**
+     *Lets the instrument play its designated notes.
+     */
     void play();
 
-    // Sets the note the instrument can play, allows to "tune" the instrument
+    /**
+     *  Sets the note the instrument can play, allows to "tune" the instrument
+     * @param note the new note the instrument will play
+     */
     void tune(char note);
 
 }

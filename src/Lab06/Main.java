@@ -5,7 +5,14 @@
  */
 package Lab06;
 
+/**
+ * the main class where the orchestra and GenOrchestra tests are preformed
+ */
 public class Main {
+    /**
+     * tests
+     * @param args command line arguments
+     */
     public static void main(String[] args) {
 
         // variables for genOrchestra using iterator and arraylist

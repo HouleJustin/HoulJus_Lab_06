@@ -14,8 +14,8 @@ public class Cello implements Instruments{
     private char tune;
 
     /**
-     *
-     * @param songPlayed
+     * the song that the instrument will play
+     * @param songPlayed the string of the song that the instrument will play
      */
     public Cello(String songPlayed) {
         this.songPlayed = songPlayed;
@@ -23,7 +23,7 @@ public class Cello implements Instruments{
 
     /**
      * tunes the Cello to a specific note
-     * @param note
+     * @param note the note the instrument will play
      */
     public void tune(char note){
         this.tune = tune;
